@@ -13,6 +13,9 @@ import joblib
 # x_axis="power_2015_average"
 # y_axis="power_2016_average"
 
+# df=pd.read_csv("F:\\软件杯\\数据\\user_log2_count3.csv")
+# x_axis="power_2015_average"
+# y_axis="power_2016_average"
 
 # # 2.能源分类
 # df=pd.read_csv("F:\\软件杯\\数据\\household_power_consumption.csv")
@@ -72,6 +75,13 @@ for centroid_id,centroid in enumerate(centroids):
 plt.title('kmeans figure')
 
 # joblib.dump(k_means,"k_means.pkl")
+# joblib.dump(k_means,"k_means---电力用户用电分类1.pkl")
+# joblib.dump(k_means,"k_means---电力用户用电分类2.pkl")
+#joblib.dump(k_means,"k_means---能源分类.pkl")
+# joblib.dump(k_means,"k_means---峰值分类.pkl")
+# joblib.dump(k_means,"k_means---电力用户缴费行为分类.pkl")
+# joblib.dump(k_means,"k_means---激光企业分类.pkl")
+# joblib.dump(k_means,"k_means---省份GDP电量关系.pkl")
 
 plt.legend()
 plt.show()
